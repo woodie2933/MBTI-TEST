@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <script defer src="./script.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>MBTI TEST</h1>
+      <form id="quiz-form">
+        <div class="question">
+          <p>1. 아침에 일어나자마자 가장 먼저 하는 일은?</p>
+          <label>
+            <input type="radio" name="q1" value="E" />
+            휴대폰 확인하기
+          </label>
+          <label>
+            <input type="radio" name="q1" value="I" />
+            잡생각이 파도처럼 밀려온다
+          </label>
+        </div>
+        <div class="question">
+          <p>2. 주말에 주로 하는 일은?</p>
+          <label> <input type="radio" name="q2" value="E" />친구 만나기 </label>
+          <label> <input type="radio" name="q2" value="I" />집에서 쉬기 </label>
+        </div>
+        <div class="question">
+          <p>3. 회사에 출근하는 것은 야외활동일까? 아니면 실내활동일까?</p>
+          <label>
+            <input name="q3" type="radio" value="E" />
+            "사무실도 실내니까, 당연 실내활동이지!"
+          </label>
+          <label>
+            <input name="q3" type="radio" value="I" />
+            "집 밖에 나가는거니까 당연히 야외활동이지!"
+          </label>
+        </div>
+        <div class="question">
+          <p>
+            4. 친구와 밥을 먹던 중, 친구가 "근처에 있는 친구 와도 돼?"라고
+            한다면?
+          </p>
+          <label>
+            <input name="q4" type="radio" value="E" />
+            "그래? 그럼 같이 놀자!" 라고 말한다
+          </label>
+          <label>
+            <input name="q4" type="radio" value="I" />
+            '어 갑자기? 좀 불편한데' 라며 혼자 생각
+          </label>
+        </div>
+        <div class="question">
+          <p>5. 나뭇잎이 떨어지고 있다, 어디서 떨어진거지?</p>
+          <label>
+            <input name="q5" type="radio" value="S" />
+            "나무에서 떨어졌나보다"
+          </label>
+          <label>
+            <input name="q5" type="radio" value="N" />
+            "어느 나무에서 왜 떨어졌을까? "
+          </label>
+        </div>
+        <div class="question">
+          <p>6. 갈매기가 이야기를 하고 있다.</p>
+          <label>
+            <input name="q6" type="radio" value="S" />
+            "부둣가에서 새우깡이나 얻어먹자"
+          </label>
+          <label>
+            <input name="q6" type="radio" value="N" />
+            "우린 날아가면서 어디로 가는 것일까?"
+          </label>
+        </div>
+        <div class="question">
+          <p>7. 말이 바에 가서 바텐더에게 뭐라고 말했을까??</p>
+          <label>
+            <input type="radio" name="q7" value="N" />
+            말이 좋아할 만한 술이 뭘까? 보리로 만든 맥주?
+          </label>
+          <label>
+            <input type="radio" name="q7" value="S" />
+            ...말이 바에 갔다고?
+          </label>
+        </div>
+        <div class="question">
+          <p>8. 단골 식당 사장님이 후식으로 귤을 주셨다.</p>
+          <label>
+            <input type="radio" name="q8" value="N" />
+            사장님 고향이 제주도이신가? 귤이 벌써 제철인가?
+          </label>
+          <label>
+            <input type="radio" name="q8" value="S" />
+            아싸 귤이다
+          </label>
+        </div>
+        <div class="question">
+          <p>9. 옆에서 친구가 슬퍼할 때 당신의 반응은?</p>
+          <label>
+            <input type="radio" name="q9" value="T" />
+            함께 해결책을 찾아본다
+          </label>
+          <label>
+            <input type="radio" name="q9" value="F" />
+            함께 슬퍼해준다
+          </label>
+        </div>
+        <div class="question">
+          <p>10. 문제를 해결하는 방식은?</p>
+          <label>
+            <input type="radio" name="q10" value="T" />효율, 결과 중심
+          </label>
+          <label>
+            <input type="radio" name="q10" value="F" />관계, 감정 중심
+          </label>
+        </div>
+        <div class="question">
+          <p>11. "나 우울해서 빵 샀어.." 라는 친구의 말에 나는?</p>
+          <label>
+            <input type="radio" name="q11" value="T" />
+            빵은 어딨는데? 다먹음?
+          </label>
+          <label>
+            <input type="radio" name="q11" value="F" />
+            왜 우울해!! 다 말해봐 ㅠㅠ
+          </label>
+        </div>
+        <div class="question">
+          <p>12. 친구가 몸이 안 좋다고 한다.</p>
+          <label>
+            <input type="radio" name="q12" value="F" />
+            병원을 가.
+          </label>
+          <label>
+            <input type="radio" name="q12" value="T" />
+            헐 어디가 어떻게 아픈데? 약은 먹었어?
+          </label>
+        </div>
+        <div class="question">
+          <p>13. 여행 계획을 짤 때 당신은은?</p>
+          <label>
+            <input type="radio" name="q13" value="P" />
+            일단 밥을 먹고 카페에 가서 근처에 뭐 있나 검색해봐야지 ㅎㅎㅎ
+          </label>
+          <label>
+            <input type="radio" name="q13" value="J" />
+            241217_jeju_trip.xlsx
+          </label>
+        </div>
+        <div class="question">
+          <p>14. 내일은</p>
+          <label>
+            <input type="radio" name="q14" value="J" />
+            7시 기상, 러닝 1시간, 샤워 후 9시부터 알고리즘 23번부터 풀기
+            시작해야겠다.
+          </label>
+          <label>
+            <input type="radio" name="q14" value="P" />
+            짜장면 먹어야지 히히
+          </label>
+        </div>
+        <div class="question">
+          <p>15. 내일 친구들을 만나기로 했는데 연락이 없다.</p>
+          <label>
+            <input type="radio" name="q15" value="J" />
+            내일 몇 시에 만날거야? 어디서 볼 건데? 왜 아무도 연락이 없어?
+          </label>
+          <label>
+            <input type="radio" name="q15" value="P" />
+            (연락 오겠지 뭐..)
+          </label>
+        </div>
+        <div class="question">
+          <p>16. 약속 장소에 너무 일찍 도착했다.</p>
+          <label>
+            <input type="radio" name="q16" value="J" />
+            오면서 찾아본 카페에 가서 커피 한 잔 하며 자투리 시간에 할 수 있는
+            일을 한다.
+          </label>
+          <label>
+            <input type="radio" name="q16" value="P" />
+            우왕 여기 소품샵이 있었네? 끌리는 대로 구경하며 시간을 보낸다.
+          </label>
+        </div>
+        <button id="submit-button" type="button">결과 확인하기</button>
+      </form>
+      <div id="result" class="hide">
+        <h2>당신의 성격 유형은?</h2>
+        <p id="result-test">결과가 여기 표시됩니다.</p>
+        <button id="restart-button">다시 시작하기</button>
+      </div>
+    </div>
+  </body>
+</html>

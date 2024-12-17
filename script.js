@@ -55,7 +55,25 @@ function resetQuiz() {
 }
 
 function checkRadioSeleted() {
-  const allAnswered = ["q1", "q2", "q3", "q4"].every((name) => {
+  const allAnswered = [
+    "q1",
+    "q2",
+    "q3",
+    "q4",
+    "q4",
+    "q5",
+    "q6",
+    "q7",
+    "q8",
+    "q9",
+    "q10",
+    "q11",
+    "q12",
+    "q13",
+    "q14",
+    "q15",
+    "q16",
+  ].every((name) => {
     return form.querySelector(`input[name="${name}"]:checked`);
   });
   submitButton.disabled = !allAnswered;
